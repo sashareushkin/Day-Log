@@ -5,12 +5,17 @@ html {
     color: black;
 }
 
+body {
+    background-color: #FFFDEF;
+}
+
 .page {
     max-width: 640px;
     min-width: 320px;
     margin: auto;
 
     padding: 80px 15px 0 20px;
+    box-sizing: border-box;
 }
 
 .listLog {
